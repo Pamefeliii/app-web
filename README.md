@@ -1,12 +1,12 @@
 # app-web
 📂 La estructura del proyecto
 mi_proyecto/
-├── app.py                 # Archivo principal de Flask (lógica del backend)
+├── app.py               
 ├── templates/
-│   ├── index.html         # Página inicial para subir archivos
-│   └── resultado.html     # Página que muestra los resultados del análisis
+│   ├── index.html        
+│   └── resultado.html     
 ├── static/
-│   └── style.css          # Estilos para ambas páginas HTML
+│   └── style.css          
 
 🧾 Este proyecto es parte del aprendizaje práctico del curso intensivo PyQuick. Desarrollé un analizador de texto usando Python y Flask, que permite subir un archivo PDF o DOCX, extraer su contenido y analizar la cantidad de caracteres, palabras y líneas del documento. Esto me permitió aplicar los conocimientos adquiridos sobre cadenas, listas, módulos, funciones y el uso opcional de expresiones regulares. También prioricé la legibilidad y eficiencia del código, dos pilares fundamentales del curso."
 
