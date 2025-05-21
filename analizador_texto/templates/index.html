@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Analizador de Texto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Sube un archivo PDF o DOCX</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="archivo" accept=".pdf,.docx" required />
+        <button type="submit">Analizar</button>
+    </form>
+    <br>
+    <a href="/" class="boton-volver"> Elegir otro archivo</a>
+
+</body>
+</html>
